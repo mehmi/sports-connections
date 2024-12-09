@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-bebasneue: "Bebas Neue", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+    --white: #fff;
+    --orange: #FF8400;
+    --faq-bg: #1C2534;
+    --themeColor: #151B28;
+}
+
+body {
+    font-family: var(--font-bebasneue);
+    font-weight: 400;
+}
+
+a {
+    text-decoration: unset;
+}
+
+/* Header Start*/
+.headerWrap {
+    background-color: var(--themeColor);
+    padding: 16px 0;
+}
+
+.headerWrap .headerLogo {
+    height: 32px;
+    width: auto;
+}
+
+.headerRtLinks .nav-link {
+    color: var(--white);
+    font-size: 22.5px;
+    transition: all 0.3s;
+}
+
+.headerRtLinks .nav-link:hover {
+    color: var(--orange);
+    transition: all 0.3s;
+}
+
+.subHeader ul {
+    padding: 10px 0;
+}
+
+.subHeader ul {
+    display: flex;
+    gap: 0;
+    align-items: center;
+}
+
+.subHeader ul li {
+    list-style-type: none;
+    display: block;
+}
+
+.subHeader ul li a {
+    padding: 15px 24px;
+    font-size: 22.5px;
+    color: var(--white);
+    display: block;
+    transition: all 0.3s;
+}
+
+.subHeader ul li a:hover {
+    color: var(--orange);
+    transition: all 0.3s;
+}
+
+.subHeader ul li a span {
+    position: relative;
+}
+
+.subHeader ul li a span::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    height: 2px;
+    background-color: var(--orange);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    transition: all 0.3s;
+}
+
+.subHeader ul li a:hover span::before {
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.hdrLangbtn {
+    display: flex;
+    gap: 12px;
+    background-color: unset;
+    border: unset;
+    color: white;
+    font-size: 18px;
+    align-items: baseline;
+}
+
+.hdrLinksDivider {
+    height: 30px;
+    width: 0.87px;
+    background-color: #FCFCFD;
+    opacity: 0.5;
+}
+
+.rtLinksWrap {
+    gap: 32px;
+}
+
+/* Header End*/
+
+section {
+    padding: 120px 0;
+}
+
+/* Banner Section Start*/
+.bannerSection {
+    background: url('../images/bannerImg.png');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.bannerContent h1 {
+    font-size: 86.83px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.bannerContent p {
+    font-size: 22.5px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.bannerBtnsWrap {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 32px;
+}
+
+/* Banner Section End*/
+
+/* Sport Section Start */
+.pickYourSportSection {
+    background-color: var(--themeColor);
+    padding: 7.5rem 0;
+}
+
+.sectionHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    max-width: 752px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.sectionHeading h1 {
+    font-size: 54px;
+    margin-bottom: 0;
+}
+
+.sectionHeading .sectionSubHd {
+    font-size: 18px;
+    font-family: var(--font-roboto);
+    text-align: center;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+.sportSlider {
+    height: 365px;
+}
+
+.sportSlider .splide__arrows {
+    display: none;
+}
+
+.sportSlider .sportImg {
+    width: 100%;
+    max-height: 328px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.sportSlider .splide__pagination {
+    bottom: 0;
+}
+
+.sportsSliderTxt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.sportsSliderTxt h6 {
+    font-size: 22.5px;
+    color: var(--orange);
+}
+
+.sportsSliderTxt p {
+    font-size: 22.5px;
+    color: var(--white);
+    font-family: var(--font-roboto);
+}
+
+.sportsSliderWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.sportsBtnWrap {
+    margin-top: 64px;
+    text-align: center;
+}
+
+/* Sport Section End */
+
+/* Get College Degree Start */
+.GetCollegeDegreeSection {
+    background: url(../images/getDegreeBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: top;
+}
+
+.getDegreeTxtWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    color: white;
+    max-width: 752px;
+    margin: 0 auto;
+}
+
+.getDegreeTxtWrap h1 {
+    font-size: 54px;
+    margin-bottom: 0;
+}
+
+.getDegreeTxtWrap p {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: var(--font-roboto);
+}
+
+.getDegreeBtns {
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+/* Get College Degree End */
+
+
+/* Buttons  Start*/
+.themeBtn {
+    background-color: var(--orange);
+    border-radius: 4px;
+    padding: 12px 18px;
+    font-size: 22.5px;
+    color: var(--white);
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+.themeBtn:hover {
+    transition: all 0.3s;
+    background-color: transparent;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
+
+.themeBtn svg path {
+    transition: all 0.3s;
+}
+
+.themeBtn:hover svg path {
+    transition: all 0.3s;
+    fill: var(--orange);
+}
+
+.secondaryBtn {
+    background-color: unset;
+    border: unset;
+    padding: 12px 18px;
+    font-size: 22.5px;
+    color: var(--white);
+    align-content: center;
+}
+
+.outlineBtn {
+    border: 1px solid var(--orange);
+    background: transparent;
+    color: var(--orange);
+    width: 100%;
+    height: 56px;
+    align-content: center;
+    font-size: 22.5px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.outlineBtn:hover {
+    color: var(--white);
+    transition: all 0.3s;
+}
+
+/* Buttons  End*/
+
+
+/* Faq Section */
+.faqSection {
+    background: url(../images/faqBg.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.faqsWrap {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.faqsWrap .accordion-button {
+    background-color: var(--faq-bg);
+    color: var(--white);
+    border: unset;
+    box-shadow: unset;
+    gap: 24px;
+    align-items: center;
+    font-size: 22.5px;
+    padding: 32px;
+    border-radius: 10px !important;
+}
+
+.faqsWrap .accordion-button::after {
+    flex-shrink: 0;
+    background-image: unset;
+    content: "+";
+    background: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding-top: 3px;
+    font-size: 32px;
+}
+
+.faqsWrap .accordion-button:not(.collapsed)::after {
+    content: "-";
+}
+
+.faqsWrap .accordion-button img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.faqsWrap .accordion-item {
+    border: unset;
+    box-shadow: unset;
+    margin-bottom: 16px;
+    background: var(--faq-bg);
+    color: var(--white);
+    border-radius: 10px;
+}
+
+.faqsWrap .accordion-body {
+    padding: 0 32px 32px 32px;
+    font-size: 22.5px;
+}
+
+/* Our Athletes Section */
+.ourAthletesSection {
+    background: var(--themeColor) url(/assets/images/ourAthletesBg.png) no-repeat;
+}
+
+.ourAthletesSection .sectionHeading {
+    justify-content: start;
+    max-width: 100%;
+    align-items: start;
+}
+
+.athletesList {
+    display: flex;
+    gap: 24px;
+}
+
+.athletesList .athletesCard {
+    height: 456px;
+    width: 357px;
+    position: relative;
+}
+
+.athletesList .athletesCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.athletesCard .athleteContent {
+    align-content: end;
+    padding: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, black);
+}
+
+.athletesCard .athleteContent p {
+    font-size: 43px;
+    margin-bottom: 24px;
+    color: var(--white);
+}
+
+/* Seccess Stories Section */
+.successStoriesSection {
+    background: var(--themeColor);
+}
+
+.successStoriesSwiper .splide__pagination {
+    display: none;
+}
+
+.successStoriesSwiper .splide__arrows {
+    position: absolute;
+    top: 107%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.successStoriesSwiper .splide__arrow {
+    position: unset;
+}
+
+.successStoriesSwiper .sportSliderItem {
+    display: flex;
+    align-items: center;
+}
+
+.successStoriesSwiper .sportSliderItem img {
+    width: 800px;
+    max-height: 640px;
+    object-fit: cover;
+}
+
+.successStoriesTxtWrap {
+    max-width: 496px;
+    padding: 64px;
+    background-color: #333B48;
+    height: fit-content;
+    margin-right: -176px;
+    z-index: 1;
+}
+
+.successStoriesTxtWrap h6 {
+    font-size: 18px;
+    color: var(--orange);
+    margin-bottom: 16px;
+}
+
+.successStoriesTxtWrap h2 {
+    color: var(--white);
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.successStoriesTxtWrap p {
+    color: var(--white);
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: var(--font-roboto);
+}
+
+/* Our Teams section */
+.ourTeamsection {
+    background: var(--themeColor) url(/assets/images/OurTeamBg.png) no-repeat center;
+    background-size: cover;
+    padding: 120px 0 0;
+}
+
+.OurTeamWrap {
+    display: flex;
+    gap: 24px;
+}
+
+.ourTeamItem {
+    height: 700px;
+    width: 350px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ourTeamItem>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ourTeamItem .teamMemberDtl {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s;
+    background: linear-gradient(to bottom, transparent, black);
+    align-content: end;
+    padding: 50px 16px;
+}
+
+.ourTeamItem:hover .teamMemberDtl {
+    top: 0;
+    transition: all 0.4s;
+}
+
+.ourTeamItem:hover .teamMemberDtl .memberName {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.memberLinks {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+
+.memberLinks a {
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+}
+
+.memberLinks a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* Start your journey section */
+.startYourJourney {
+    background: url(../images/startJourneyBg.png) no-repeat;
+    height: 100dvh;
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+}
+
+.startYourJourney h1 {
+    font-size: 86px;
+    color: var(--white);
+}
+
+/* Enter Mail Section */
+.enterMailSection {
+    background: var(--themeColor) url(/assets/images/enterMailSecBg.png) no-repeat;
+}
+
+.enterMailSection .enterMailHdng {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+.enterMailSection .enterMailHdng h1 {
+    font-size: 54px;
+    color: var(--orange);
+    text-align: center;
+}
+
+.enterMailSection .enterMailHdng p {
+    font-size: 18px;
+    font-family: var(--font-roboto);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.enterMailWrap {
+    display: flex;
+    max-width: 512px;
+    gap: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.enterMailWrap .enterMailTxt {
+    position: absolute;
+    left: 16px;
+    top: 5px;
+    color: white;
+    opacity: 0.5;
+    font-size: 14px;
+    font-family: var(--font-roboto);
+}
+
+.enterMailWrap input {
+    flex: 1;
+    height: 56px;
+    border: unset;
+    border-radius: 8px 0 0 8px;
+    outline: unset;
+    padding: 16px 16px 05px;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--white);
+    font-size: 18px;
+    font-family: var(--font-roboto);
+}
+
+.enterMailWrap input::placeholder {
+    color: var(--orange);
+    opacity: 0.15;
+    font-size: 18px;
+    font-family: var(--font-roboto);
+}
+
+.signInBtn {
+    background-color: var(--orange);
+    height: 56px;
+    padding: 0 18px;
+    color: var(--white);
+    font-size: 22.5px;
+    border-radius: 0 8px 8px 0;
+    border: unset;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    padding: 64px 0 32px;
+    background: var(--themeColor);
+}
+
+.footerLogo {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
+    object-position: left;
+}
+
+.footerLinks {
+    text-align: center;
+    padding-left: 0;
+}
+
+.footerLinks li {
+    list-style-type: none;
+}
+
+.footerLinks li a {
+    padding: 4px 0;
+    font-family: var(--font-roboto);
+    color: #6B7B8F;
+    font-size: 18px;
+}
+.footerSocialLinks{
+    display: flex;
+    justify-content: end;
+    gap: 8px;
+}
+.footerSocialLinks a{
+    padding: 2px;
+    width: 32px;
+    height: 32px;
+}
+.footerSocialLinks a img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.copyrightTxt{
+    padding: 16px 0;
+}
+.copyrightTxt p{
+    font-size: 14px;
+    color: var(--orange);
+    font-family: var(--font-roboto);
+}

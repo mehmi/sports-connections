@@ -1,0 +1,211 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1120px;
+    }
+}
+
+
+
+@media screen and (min-width: 1920px) {}
+
+
+@media screen and (min-width: 1600px) {}
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 1199px) {
+    section {
+        padding: 80px 0;
+        margin-top: -1px;
+    }
+    .headerWrap {
+        padding: 10px 0;
+    }
+    .subHeader ul li a {
+        padding: 10px 18px;
+        font-size: 20px;
+    }
+    .subHeader ul {
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .bannerSection{
+        min-height: fit-content;
+    }
+    .bannerContent h1 {
+        font-size: 66.83px;
+        margin-bottom: 20px;
+    }
+    .bannerContent p {
+        font-size: 18px;
+    }
+    .pickYourSportSection {
+        padding: 4.5rem 0;
+    }
+    .sectionHeading {
+        gap: 24px;
+        margin-bottom: 50px;
+    }
+    .sectionHeading h1 {
+        font-size: 50px;
+    }
+    .sectionHeading .sectionSubHd {
+        font-size: 16px;
+        text-wrap: balance;
+    }
+    .sportSlider {
+        height: 335px;
+    }
+    .sportSlider .sportImg {
+        max-height: 288px;
+    }
+    .sportsSliderWrap {
+        gap: 24px;
+    }
+    .sportsSliderTxt {
+        gap: 16px;
+    }
+    .sportsSliderTxt h6 {
+        font-size: 18px;
+    }
+    .sportsSliderTxt p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .sportsBtnWrap {
+        margin-top: 30px;
+    }
+    .secondaryBtn {
+        font-size: 18px;
+        padding: 10px 18px;
+    }
+    .themeBtn {
+        padding: 10px 18px;
+        font-size: 18px;
+    }
+    .outlineBtn {
+        height: 46px;
+        font-size: 18px;
+    }
+    .GetCollegeDegreeSection {
+        min-height: fit-content;
+    }
+    .getDegreeTxtWrap h1 {
+        font-size: 50px;
+    }
+    .getDegreeTxtWrap {
+        gap: 24px;
+    }
+    .getDegreeTxtWrap p {
+        font-size: 16px;
+    }
+    .getDegreeBtns {
+        gap: 12px;
+        padding: 8px;
+        margin-top: 24px;
+    }
+    .faqsWrap .accordion-button {
+        gap: 18px;
+        font-size: 18px;
+        padding: 18px;
+    }
+    .faqsWrap .accordion-button img {
+        width: 35px;
+        height: 35px;
+    }
+    .faqsWrap .accordion-body {
+        padding: 0 24px 24px 24px;
+        font-size: 18px;
+    }
+    .athletesList .athletesCard {
+        height: 360px;
+        width: 357px;
+    }
+    .athletesCard .athleteContent {
+        padding: 24px;
+    }
+    .athletesCard .athleteContent p {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+    .successStoriesTxtWrap {
+        padding: 30px;
+    }
+    .successStoriesTxtWrap h6 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .successStoriesTxtWrap h2 {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    .successStoriesTxtWrap p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .ourTeamsection {
+        padding: 80px 0 0;
+    }
+    .ourTeamItem {
+        height: 550px;
+    }
+    .ourTeamItem:hover .teamMemberDtl .memberName {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    .startYourJourney {
+        height: fit-content;
+        padding: 140px 0;
+    }
+    .startYourJourney h1 {
+        font-size: 66px;
+        margin-bottom: 0;
+    }
+    .enterMailSection .enterMailHdng h1 {
+        font-size: 46px;
+        margin-bottom: 0;
+    }
+    .enterMailSection .enterMailHdng {
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+    footer {
+        padding: 44px 0 22px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 834px) {}
+
+@media (max-width: 812px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {}
