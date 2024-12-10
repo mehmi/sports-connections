@@ -26,183 +26,500 @@
         padding: 80px 0;
         margin-top: -1px;
     }
+
     .headerWrap {
         padding: 10px 0;
     }
+
     .subHeader ul li a {
         padding: 10px 18px;
         font-size: 20px;
     }
+
     .subHeader ul {
         margin-bottom: 0;
         padding: 0;
     }
-    .bannerSection{
+
+    .bannerSection {
         min-height: fit-content;
     }
+
     .bannerContent h1 {
         font-size: 66.83px;
         margin-bottom: 20px;
     }
+
     .bannerContent p {
         font-size: 18px;
     }
+
     .pickYourSportSection {
         padding: 4.5rem 0;
     }
+
     .sectionHeading {
         gap: 24px;
         margin-bottom: 50px;
     }
+
     .sectionHeading h1 {
         font-size: 50px;
     }
+
     .sectionHeading .sectionSubHd {
         font-size: 16px;
         text-wrap: balance;
     }
+
     .sportSlider {
         height: 335px;
     }
+
     .sportSlider .sportImg {
         max-height: 288px;
     }
+
     .sportsSliderWrap {
         gap: 24px;
     }
+
     .sportsSliderTxt {
         gap: 16px;
     }
+
     .sportsSliderTxt h6 {
         font-size: 18px;
     }
+
     .sportsSliderTxt p {
         font-size: 16px;
         margin-bottom: 0;
     }
+
     .sportsBtnWrap {
         margin-top: 30px;
     }
+
     .secondaryBtn {
         font-size: 18px;
         padding: 10px 18px;
     }
+
     .themeBtn {
         padding: 10px 18px;
         font-size: 18px;
     }
+
     .outlineBtn {
         height: 46px;
         font-size: 18px;
     }
+
     .GetCollegeDegreeSection {
         min-height: fit-content;
     }
+
     .getDegreeTxtWrap h1 {
         font-size: 50px;
     }
+
     .getDegreeTxtWrap {
         gap: 24px;
     }
+
     .getDegreeTxtWrap p {
         font-size: 16px;
     }
+
     .getDegreeBtns {
         gap: 12px;
         padding: 8px;
         margin-top: 24px;
     }
+
     .faqsWrap .accordion-button {
         gap: 18px;
         font-size: 18px;
         padding: 18px;
     }
+
     .faqsWrap .accordion-button img {
         width: 35px;
         height: 35px;
     }
+
     .faqsWrap .accordion-body {
         padding: 0 24px 24px 24px;
         font-size: 18px;
     }
+
     .athletesList .athletesCard {
         height: 360px;
         width: 357px;
     }
+
     .athletesCard .athleteContent {
         padding: 24px;
     }
+
     .athletesCard .athleteContent p {
         font-size: 30px;
         margin-bottom: 16px;
     }
+
     .successStoriesTxtWrap {
         padding: 30px;
     }
+
     .successStoriesTxtWrap h6 {
         font-size: 18px;
         margin-bottom: 10px;
     }
+
     .successStoriesTxtWrap h2 {
         font-size: 24px;
         margin-bottom: 18px;
     }
+
     .successStoriesTxtWrap p {
         font-size: 16px;
         margin-bottom: 0;
     }
+
     .ourTeamsection {
         padding: 80px 0 0;
     }
+
     .ourTeamItem {
         height: 550px;
     }
+
     .ourTeamItem:hover .teamMemberDtl .memberName {
         font-size: 24px;
         margin-bottom: 8px;
     }
+
     .startYourJourney {
         height: fit-content;
         padding: 140px 0;
     }
+
     .startYourJourney h1 {
         font-size: 66px;
         margin-bottom: 0;
     }
+
     .enterMailSection .enterMailHdng h1 {
         font-size: 46px;
         margin-bottom: 0;
     }
+
     .enterMailSection .enterMailHdng {
         gap: 24px;
         margin-bottom: 24px;
     }
+
     footer {
         padding: 44px 0 22px;
     }
 }
 
 @media screen and (max-width: 1024px) {
-  
+    .subHeader ul li a {
+        font-size: 18px;
+    }
+
+    .sportsWrap>.row {
+        row-gap: 2rem;
+    }
+
+    .bannerContent h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .ourAthletesSection .athletesList {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .ourAthletesSection .athletesList .athletesCard {
+        width: unset;
+    }
+
+    .OurTeamWrap {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .OurTeamWrap .ourTeamItem {
+        width: unset;
+        height: 450px;
+    }
+
+    .OurTeamWrap .ourTeamItem img {
+        object-position: top;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .headerRtLinks .nav-link {
+        font-size: 18.5px;
+    }
+
+    .successStoriesSwiper .sportSliderItem img {
+        max-height: 450px;
+        object-position: top;
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 991px) {}
 
 @media (max-width: 834px) {}
 
-@media (max-width: 812px) {}
+@media (max-width: 812px) {
+    .subHeader ul li a {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+
+    .headerWrap header {
+        justify-content: space-between !important;
+    }
+
+    .headerWrap a:has(.headerLogo) {
+        margin-bottom: 0 !important;
+    }
+
+    .headerWrap .headerLogo {
+        height: 30px;
+    }
+
+    .rtLinksWrap {
+        gap: 16px;
+    }
+
+    .headerRtLinks .nav-link {
+        font-size: 16px;
+    }
+
+    .hdrLangbtn {
+        font-size: 16px;
+    }
+
+    .themeBtn {
+        padding: 8px 14px;
+        font-size: 16px;
+    }
+
+    .bannerContent h1 {
+        font-size: 40px;
+    }
+
+    .bannerBtnsWrap {
+        gap: 12px;
+        margin-top: 16px;
+    }
+
+    .pickYourSportSection {
+        padding: 2.5rem 0;
+    }
+
+    .sectionHeading h1 {
+        font-size: 40px;
+    }
+
+    .sectionHeading {
+        gap: 16px;
+        margin-bottom: 38px;
+    }
+
+    .sectionHeading .sectionSubHd {
+        font-size: 15px;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    .themeBtn {
+        align-items: center;
+    }
+
+    .startYourJourney {
+        padding: 100px 0;
+    }
+
+    .enterMailSection .enterMailHdng {
+        gap: 18px;
+    }
+
+    .enterMailSection .enterMailHdng h1 {
+        font-size: 36px;
+    }
+
+    .startYourJourney h1 {
+        font-size: 46px;
+    }
+
+    .footerLinks li a {
+        padding: 6px 0;
+        font-size: 16px;
+    }
+
+    .enterMailWrap input::placeholder {
+        font-size: 15px;
+    }
+
+    .enterMailWrap input {
+        font-size: 15px;
+    }
+    .getDegreeTxtWrap h1 {
+        font-size: 40px;
+    }
+}
 
 @media (max-width: 768px) {}
 
 @media (max-width: 767px) {}
 
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+    .bannerContent h1 {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+    .getDegreeTxtWrap h1 {
+        font-size: 30px;
+    }
+    .sectionHeading h1 {
+        font-size: 30px;
+    }
+    .sectionHeading {
+        margin-bottom: 28px;
+    }
+    .ourTeamsection {
+        padding: 60px 0 0;
+    }
+    .sectionHeading {
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+    .startYourJourney h1 {
+        font-size: 36px;
+    }
+    .OurTeamWrap {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+    .OurTeamWrap .ourTeamItem {
+        height: 380px;
+    }
+    .getDegreeTxtWrap {
+        gap: 8px;
+    }
+    .enterMailSection .enterMailHdng {
+        gap: 8px;
+    }
+}
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .footerLinks {
+        margin-top: 1rem;
+        text-align: left;
+    }
+    .footerSocialLinks {
+        justify-content: start;
+    }
+    .respMobileMenu{
+        display: block;
+    }
+    .rtLinksWrap{
+        display: none !important;
+    }
+    .subHeader{
+        display: none;
+    }
+    .headerWrap header {
+        margin-bottom: 0 !important;
+    }
 
-@media (max-width: 480px) {}
+    .sportsSliderWrap {
+        gap: 14px;
+    }
+    .sportsSliderTxt {
+        gap: 4px;
+    }
+    .sportsSliderTxt p {
+        font-size: 14px;
+    }
+    .successStoriesSwiper .sportSliderItem {
+        flex-direction: column-reverse;
+    }
+    .successStoriesTxtWrap {
+        margin-right: 0;
+        margin-top: -30px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
 
-@media (max-width: 414px) {}
+@media (max-width: 480px) {
+    footer {
+        padding: 24px 0 22px;
+    }
+    .copyrightTxt{
+        padding-bottom: 0;
+    }
+    .copyrightTxt p{
+        margin-bottom: 0;
+    }
+    .startYourJourney {
+        padding: 70px 0;
+    }
+    .OurTeamWrap .ourTeamItem {
+        height: 320px;
+    }
+}
+
+@media (max-width: 414px) {
+    .bannerBtnsWrap {
+        margin-top: 12px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .secondaryBtn {
+        padding: 10px 0px;
+    }
+    .getDegreeBtns {
+        margin-top: 24px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .getDegreeTxtWrap {
+        text-align: left;
+    }
+    .faqsWrap .accordion-button img {
+        width: 24px;
+        height: 24px;
+    }
+    .faqsWrap .accordion-button {
+        gap: 10px;
+        font-size: 16px;
+        padding: 18px;
+        font-family: var(--font-roboto);
+    }
+    .faqsWrap .accordion-body {
+        padding: 0 24px 24px 24px;
+        font-size: 16px;
+        font-family: var(--font-roboto);
+    }
+}
 
 @media (max-width: 375px) {}
 

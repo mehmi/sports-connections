@@ -19,7 +19,7 @@
                         }
                     @endphp
 
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="sportsSliderWrap">
                             <div class="splide {{ $slider}} sportSlider" aria-labelledby="carousel-heading">
                                 <div class="splide__track">
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     @endforeach
-                    {{-- <div class="col-lg-4 col-md-6 col-sm-12">
+                    {{-- <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="sportsSliderWrap">
                             <div class="splide sportSplideB sportSlider" aria-labelledby="carousel-heading">
                                 <div class="splide__track">
@@ -82,7 +82,7 @@
                             <button class="outlineBtn">Start here</button>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="sportsSliderWrap">
                             <div class="splide sportSplideC sportSlider" aria-labelledby="carousel-heading">
                                 <div class="splide__track">

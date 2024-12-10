@@ -1,12 +1,12 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-sm-6 col-12">
+            <div class="col-lg-3 col-sm-4 col-12">
                 <a href="{{ url('/')}}">
                     <img src="{{ url('frontend/assets/images/Logo.png')}}" alt="Sports" class="footerLogo">
                 </a>
             </div>
-            <div class="col-lg-6 col-sm-6 col-12">
+            <div class="col-lg-6 col-sm-4 col-12">
                 <ul class="footerLinks">
                     <li>
                         <a href="{{ url('/')}}#homeSection">Home</a>
@@ -16,7 +16,7 @@
                     <li><a href="{{ url('/')}}#successStoriesSection">Contact</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-sm-6 col-12">
+            <div class="col-lg-3 col-sm-4 col-12">
                 <div class="footerSocialLinks">
                     <a href="#">
                         <img src="{{ url('frontend/assets/images/InstagramLogo.png')}}" alt="Instagram">
